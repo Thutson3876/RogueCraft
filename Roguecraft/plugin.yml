@@ -1,0 +1,21 @@
+name: Roguecraft
+version: 0.8
+load: startup
+author: thutson3876
+main: me.thutson3876.roguecraft.Roguecraft
+description: A roguelike adventure 
+api-version: 1.18.2
+
+commands:
+  seeabilities:
+    usage: /<command>
+    description: opens the gui for the user to see abilities they've acquired
+  help:
+    usage: /<command>
+    description: tells the user how to use the plugin and its commands
+  toggledamagemeters:
+    usage: /<command>
+    description: toggles information about exact damage the player deals
+  togglefriendlyfire:
+    usage: /<command>
+    description: toggles damage to other players
